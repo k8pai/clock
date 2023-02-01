@@ -5,8 +5,8 @@ import Timer from './components/Timer';
 
 function App() {
 	return (
-		<div className="w-full flex justify-center items-start">
-			<h1>hey there, k8pai here</h1>
+		<div className="flex-grow w-full flex justify-center items-start bg-[#121212]">
+			<DigitalClock />
 		</div>
 	);
 }
